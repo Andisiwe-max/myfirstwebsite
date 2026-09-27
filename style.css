@@ -1,0 +1,59 @@
+body {
+background-color: lightpink;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: purple;
+}
+
+button {
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: green;
+    color: white;
+    padding: 1opx 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: darkgreen;
+    transform: scale(1.1);
+}
+
+nav { 
+    margin: 20px;
+    font-size: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: darkblue;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: red;
+}
+
+img{
+    width: 250px;
+    border-radius: 15px;
+    margin: 10px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.08);
+}
+
+footer{
+    margin-top: 40px;
+    padding: 20px;
+    background-color: purple;
+    color: white;
+}

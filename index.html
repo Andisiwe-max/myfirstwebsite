@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"
+        <title>My First Website</title>
+
+        <link rel="stylesheet"
+        href="style.css">
+    </head>
+
+    <style>
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+
+body {
+    background-color: lightpink;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: purple;
+}
+
+button {
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: green;
+    color: white;
+    padding: 1opx 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: darkgreen;
+    transform: scale(1.1);
+}
+
+nav { 
+    margin: 20px;
+    font-size: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: darkblue;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: red;
+}
+
+img{
+    width: 250px;
+    border-radius: 15px;
+    margin: 10px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.08);
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: o;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1 {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+p {
+    animation: fadeIn 2s ease-in-out;
+}
+
+</style>
+    </head>
+
+    <body>
+        <div class="container">
+
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <h1 id="title">Welcome to My Website</h1>
+
+        <p>Hello, Andisiwe! I'm learning web development.</p>
+
+        <p>This is my second lesson, and I'm excited to build websites!</p>
+
+        <button id="myButton">Click Me!</button>
+
+    <img src="images/myphoto1.jpeg" alt="My photo" width="250">
+
+    <img src="images/myphoto2.jpeg" alt="My photo" width="250">
+
+    <img src="images/myphoto3.jpeg" alt="myphoto3" width="250">
+
+    <img src="images/myphoto4.jpeg" alt="myphoto4" width="250">
+
+    <footer> <p> &copy; 2026 Andisiwe. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    </body>
+    
+
+
+
